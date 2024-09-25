@@ -12,7 +12,6 @@ futures = "0.3"
 ntex = { version = "2", features = ["tokio", "compress"] }
 ntex-cors = "2"
 ntex-multipart = "2"
-tokio = { version = "1", features = ["full"] }
 
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
@@ -23,3 +22,7 @@ tracing-subscriber = "0.3"
 dotenvy = "0.15"
 chrono = { version = "0.4", features = ["serde"] }
 chrono-tz = "0.10"
+nanoid = "0.4.0"
+image = { version = "0.25", features = ["webp"] }
+webp = "0.3"
+# ravif = "0.11"
