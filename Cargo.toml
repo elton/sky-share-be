@@ -11,6 +11,8 @@ edition = "2021"
 futures = "0.3"
 ntex = { version = "2", features = ["tokio", "compress"] }
 ntex-cors = "2"
+ntex-multipart = "2"
+tokio = { version = "1", features = ["full"] }
 
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

@@ -6,6 +6,7 @@ use tracing::info;
 use tracing_subscriber;
 
 mod handler;
+mod image_processing;
 mod utils;
 
 #[ntex::main]
